@@ -1,0 +1,11 @@
+{
+  "name": "jensen-english-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "verify": "node verify-site.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}
