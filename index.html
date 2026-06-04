@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Inspired by Jensen Huang's clear English style: bilingual sentence bank, common word bank, and browser-based English speech playback."
+      content="A bilingual clear-English learning site with sentence practice, core vocabulary, transcript pattern notes, and browser-based English speech playback."
     />
-    <title>Jensen English Lab | 黃仁勳式清楚英文練習</title>
+    <title>Clear English Lab | 清楚英文練習</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -15,10 +15,10 @@
 
     <header class="site-header" data-elevated="false">
       <div class="header-inner">
-        <a class="brand" href="#top" aria-label="Jensen English Lab home">
-          <span class="brand-mark" aria-hidden="true">J</span>
+        <a class="brand" href="#top" aria-label="Clear English Lab home">
+          <span class="brand-mark" aria-hidden="true">CE</span>
           <span>
-            <strong>Jensen English Lab</strong>
+            <strong>Clear English Lab</strong>
             <small>清楚、短句、可跟讀</small>
           </span>
         </a>
@@ -35,11 +35,11 @@
     <main id="main">
       <section id="top" class="intro-band">
         <div class="intro-copy">
-          <p class="eyebrow">Dictionary-built English for real conversation</p>
-          <h1>把英文說到對方聽懂。</h1>
+          <p class="eyebrow">Guided speaking practice</p>
+          <h1>每天 15 分鐘，把英文說清楚。</h1>
           <p class="lead">
-            參考 DOFI 對黃仁勳英文口說的拆解，這個靜態網站把「高頻詞、乾淨 SVO、重述、緩衝語、零文化包袱」
-            轉成可直接練的句庫與常用字庫。
+            這是一個可直接練的英文學習網站：先聽實際語料模式，再練短句、常用字、完整交流流程。
+            重點不是講得花俏，而是讓外國人聽懂、能接話、能完成基本溝通。
           </p>
 
           <div class="quick-controls" aria-label="語音設定">
@@ -56,15 +56,38 @@
           </div>
         </div>
 
-        <figure class="speaker-visual">
-          <img
-            src="assets/jensen-huang.jpg"
-            alt="Jensen Huang, founder and CEO of NVIDIA"
-          />
-          <figcaption>
-            Photo: Peter Dasilva / European Union, CC BY 4.0, via Wikimedia Commons.
-          </figcaption>
-        </figure>
+        <aside class="study-visual" aria-label="今日學習儀表板預覽">
+          <div class="study-top">
+            <span class="study-badge">Today</span>
+            <strong>Lesson 01</strong>
+          </div>
+          <div class="lesson-card featured">
+            <span>Listen and repeat</span>
+            <p>We need a clear plan.</p>
+            <div class="waveform" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+          <div class="lesson-grid">
+            <div class="lesson-card">
+              <span>Sentence</span>
+              <strong>80</strong>
+            </div>
+            <div class="lesson-card">
+              <span>Words</span>
+              <strong>120</strong>
+            </div>
+            <div class="lesson-card">
+              <span>Flow</span>
+              <strong>10</strong>
+            </div>
+          </div>
+          <ol class="study-steps">
+            <li><span>1</span>聽一句英文</li>
+            <li><span>2</span>看中文確認意思</li>
+            <li><span>3</span>跟讀並標記完成</li>
+          </ol>
+        </aside>
       </section>
 
       <section class="status-strip" aria-label="學習狀態">
@@ -89,7 +112,7 @@
       <section id="analysis" class="section-band">
         <div class="section-heading">
           <p class="eyebrow">Speaking analysis</p>
-          <h2>黃仁勳英文為什麼容易懂</h2>
+          <h2>清楚英文為什麼容易懂</h2>
           <p>
             這裡不是模仿口音，而是模仿可理解度：讓對方不用猜，也不用解文化暗號。
           </p>
@@ -160,11 +183,8 @@
         <div>
           <h2>參考與安全說明</h2>
           <p>
-            本站內容以原創學習句為主，方法參考
-            <a href="https://blog.dofi.fun/2026/06/04/jensen-huang/" rel="noreferrer" target="_blank">
-              DOFI〈為什麼黃仁勳的英文，你我居然都聽得懂？〉
-            </a>
-            的分析方向。英文發音使用瀏覽器 Web Speech API，不需要把任何雲端 API key 放進前端。
+            本站內容以原創學習句為主，語料觀察只保留短句摘錄與可泛用句型。英文發音使用瀏覽器 Web Speech API，
+            不需要把任何雲端 API key 放進前端。
           </p>
         </div>
       </section>

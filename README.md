@@ -1,6 +1,6 @@
-# Jensen English Lab
+# Clear English Lab
 
-A static bilingual English-learning site inspired by an analysis of Jensen Huang's clear speaking style.
+A static bilingual English-learning site for clear spoken English practice.
 
 ## What it includes
 
@@ -23,13 +23,10 @@ npm run verify
 
 ## Source note
 
-Method inspiration and transcript sources consulted:
+Transcript sources consulted:
 
-- DOFI article: <https://blog.dofi.fun/2026/06/04/jensen-huang/>
 - NVIDIA GTC 2024 official blog: <https://blogs.nvidia.com/blog/2024-gtc-keynote/>
 - Caltech 2024 commencement transcript: <https://singjupost.com/jensen-huangs-speech-at-caltech-2024-commencement-transcript/>
 - Dell Technologies World 2024 transcript PDF: <https://www.delltechnologies.com/asset/en-au/solutions/business-solutions/briefs-summaries/dell-technologies-world-2024-monday-keynote.pdf>
 - Computex 2024 transcript notes: <https://www.ernestchiang.com/en/posts/2024/computex-2024-keynote-with-nvidia-ceo-jensen-huang/>
 - Joe Rogan Experience #2422 transcript: <https://podscripts.co/podcasts/the-joe-rogan-experience/2422-jensen-huang>
-
-Portrait: Peter Dasilva / European Union, CC BY 4.0, via Wikimedia Commons.

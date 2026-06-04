@@ -27,8 +27,8 @@ const analysisItems = [
 
 const evidenceItems = [
   {
-    source: "DOFI article quoting Joe Rogan transcript",
-    url: "https://blog.dofi.fun/2026/06/04/jensen-huang/",
+    source: "Joe Rogan #2422 transcript",
+    url: "https://podscripts.co/podcasts/the-joe-rogan-experience/2422-jensen-huang",
     quote: "That was a huge moment.",
     zh: "那是一個很大的時刻。",
     pattern: "That was + a/an + adjective + moment.",
@@ -36,8 +36,8 @@ const evidenceItems = [
     practice: "That was a hard lesson.",
   },
   {
-    source: "DOFI article quoting Joe Rogan transcript",
-    url: "https://blog.dofi.fun/2026/06/04/jensen-huang/",
+    source: "Joe Rogan #2422 transcript",
+    url: "https://podscripts.co/podcasts/the-joe-rogan-experience/2422-jensen-huang",
     quote: "We need energy growth.",
     zh: "我們需要能源成長。",
     pattern: "We need + noun.",
@@ -529,7 +529,7 @@ const sentences = [
     en: "Let me explain the problem in two parts.",
     zh: "讓我把問題分成兩部分說明。",
     pattern: "Let me + V + noun + in + number + parts",
-    note: "黃仁勳式先分框架。",
+    note: "先分框架，再說內容。",
   },
   {
     topic: "Work",
